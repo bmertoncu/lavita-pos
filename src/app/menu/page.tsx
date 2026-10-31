@@ -1,14 +1,15 @@
-import React, { Suspense } from 'react';
-import { connection } from 'next/server';
+import React from 'react';
 import { QRMenuView } from '@/components/qr-menu/QRMenuView';
 import { getPublicMenuState } from '@/lib/menu-store';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 interface PageProps {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
-async function MenuContent({ searchParams }: PageProps) {
-  await connection();
+export default async function MenuPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const table = typeof params?.table === 'string' ? params.table : null;
   const view = params?.view;
@@ -24,23 +25,5 @@ async function MenuContent({ searchParams }: PageProps) {
       initialTable={table}
       isViewOnly={isViewOnly}
     />
-  );
-}
-
-export default function MenuPage({ searchParams }: PageProps) {
-  const { categories, menuItems } = getPublicMenuState();
-  return (
-    <Suspense
-      fallback={
-        <QRMenuView
-          initialCategories={categories}
-          initialMenuItems={menuItems}
-          initialTable={null}
-          isViewOnly={false}
-        />
-      }
-    >
-      <MenuContent searchParams={searchParams} />
-    </Suspense>
   );
 }
