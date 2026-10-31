@@ -1,0 +1,1004 @@
+{
+  "categories": [
+    {
+      "id": "sporcu",
+      "name": "🏋️ Sporcu Menüsü",
+      "nameIt": "Fitness & Protein",
+      "icon": "Utensils",
+      "description": "Tavuklar yağsız pişirilir, sadece 1 tatlı kaşığı zeytinyağı kullanılır. Dengeli makro ve mikro değerler.",
+      "order": 1
+    },
+    {
+      "id": "et-yemekleri",
+      "name": "🥩 Et Yemekleri Menüleri",
+      "nameIt": "Piatti di Carne",
+      "icon": "UtensilsCrossed",
+      "description": "Fiyatlara Ana Yemek + Pilav + Çorba veya Cacık dahildir.",
+      "order": 2
+    },
+    {
+      "id": "tavuk-yemekleri",
+      "name": "🍗 Tavuk Yemekleri Menüleri",
+      "nameIt": "Piatti di Pollo",
+      "icon": "Utensils",
+      "description": "Fiyatlara Ana Yemek + Pilav + Çorba veya Cacık dahildir.",
+      "order": 3
+    },
+    {
+      "id": "sebzeli-yemekler",
+      "name": "🥦 Sebzeli & Etsiz Menüler",
+      "nameIt": "Verdure & Veg",
+      "icon": "Salad",
+      "description": "Fiyatlara Ana Yemek + Pilav + Çorba veya Cacık dahildir.",
+      "order": 4
+    },
+    {
+      "id": "makarnalar",
+      "name": "🍝 Makarna Çeşitleri & Soslar",
+      "nameIt": "Paste & Salse",
+      "icon": "Pizza",
+      "description": "Makarna siparişlerinde Makarna + Çorba + Cacık birlikte verilir.",
+      "order": 5
+    },
+    {
+      "id": "corbalar",
+      "name": "🥣 Çorbalar",
+      "nameIt": "Zuppe",
+      "icon": "CupSoda",
+      "description": "Günün taze sıcacık çorbaları (Tekil / Ekstra Porsiyon)",
+      "order": 6
+    },
+    {
+      "id": "mezeler-salatalar",
+      "name": "🥗 Mezeler & Salatalar",
+      "nameIt": "Meze & Insalate",
+      "icon": "Salad",
+      "description": "Zeytinyağlı taze mezeler ve çıtır salatalar (Tekil / Ekstra Porsiyon)",
+      "order": 7
+    },
+    {
+      "id": "tatlilar",
+      "name": "🍰 Tatlılar",
+      "nameIt": "Dolci Freschi",
+      "icon": "Cake",
+      "description": "Günlük taze ev yapımı tatlılar",
+      "order": 8
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "sp-1",
+      "name": "Antrenman Sonrası (Yüksek Protein)",
+      "description": "Tavuk Göğüs Izgara (180g) + Etsiz Nohut (120g) + Haşlanmış Brokoli + Roka Salatası + Cacık [~650 kcal | 74g Protein]",
+      "price": 430,
+      "categoryId": "sporcu",
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "preparationTime": 15,
+      "allergens": [],
+      "badges": [
+        "chef_choice",
+        "bestseller"
+      ]
+    },
+    {
+      "id": "sp-2",
+      "name": "Dengeli Öğün",
+      "description": "Haşlama Tavuk (150g) + Haşlanmış Brokoli (150g) + Mercimek Çorbası + Mevsim Salata + Yoğurt [~600 kcal | 65g Protein]",
+      "price": 390,
+      "categoryId": "sporcu",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "sp-3",
+      "name": "Yoğun Antrenman Günü",
+      "description": "Fırında Derisiz Kalça But (150g) + Etsiz Kuru Fasulye (150g) + Haşlanmış Brokoli + Ispanak + Göbek Salata + Yoğurt [~615 kcal | 59g Protein]",
+      "price": 410,
+      "categoryId": "sporcu",
+      "image": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "chef_choice"
+      ]
+    },
+    {
+      "id": "sp-4",
+      "name": "Hafif Akşam",
+      "description": "Tavuklu Salata (120g Göğüs) + Haşlama Karnabahar (150g) + Haşlanmış Brokoli + Humus (50g) + Mercimek Çorbası [~645 kcal | 56g Protein]",
+      "price": 380,
+      "categoryId": "sporcu",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "et-1",
+      "name": "Mutancana Menü",
+      "description": "Osmanlı saray mutfağından kuru meyveli kuzu eti yahnisi. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 560,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "chef_choice"
+      ]
+    },
+    {
+      "id": "et-2",
+      "name": "Güveç Menü",
+      "description": "Toprak güveçte ağır ateşte pişmiş kuzu eti ve mevsim sebzeleri. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 550,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-3",
+      "name": "Etli Kuru Kavurma Menü",
+      "description": "Lokum kıvamında dana kavurma. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 550,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "et-4",
+      "name": "Hünkar Beğendi Menü",
+      "description": "Köz patlıcan beğendi yatağında kuşbaşı dana yahni. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 540,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "chef_choice",
+        "bestseller"
+      ]
+    },
+    {
+      "id": "et-5",
+      "name": "Ali Nazik Menü",
+      "description": "Sarımsaklı yoğurtlu köz patlıcan üzerinde tereyağlı marine et. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 540,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-6",
+      "name": "Patlıcan Kebabı Menü",
+      "description": "Köz patlıcan ve zırh köfteli fırın kebap. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 530,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-7",
+      "name": "Et Sote Menü",
+      "description": "Biber, domates ve kekikle sotelenmiş dana kuşbaşı. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 530,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-8",
+      "name": "Orman Kebabı Menü",
+      "description": "Bezelye, patates ve havuçlu geleneksel et yemeği. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 520,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-9",
+      "name": "Tepsi Kebabı Menü",
+      "description": "Antakya usulü fırında tepsi kebabı. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 510,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-10",
+      "name": "Hasanpaşa Köfte Menü",
+      "description": "Patates püresi dolgulu fırınlanmış kaşarlı köfte. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 500,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "et-11",
+      "name": "Anne Köftesi Menü",
+      "description": "Özel baharatlı ızgara ev köftesi. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 490,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "et-12",
+      "name": "İzmir Köfte Menü",
+      "description": "Patates, biber ve domates soslu fırın köfte. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 490,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-13",
+      "name": "Rosto (Kıymalı) Menü",
+      "description": "Özel sosu ve patates püresiyle kıymalı dalyan rosto. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 490,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": false
+    },
+    {
+      "id": "et-14",
+      "name": "Etli Krep Menü",
+      "description": "Fırında beşamel sos ve kaşar peynirli etli krep sarması. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 480,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-15",
+      "name": "Karnıyarık Menü",
+      "description": "Kıymalı nefis harçla fırınlanmış patlıcan. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 460,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "et-16",
+      "name": "Kabak Sandal Sefası Menü",
+      "description": "Kıymalı ve beşamel soslu fırınlanmış kabak sandalları. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 460,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-17",
+      "name": "Musakka Menü",
+      "description": "Kızarmış patlıcan ve kıyma katmanlı geleneksel fırın musakka. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 460,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "et-18",
+      "name": "Soğan Dolması Menü",
+      "description": "Etli pirinçli harçla doldurulmuş nar gibi soğan dolması. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 460,
+      "categoryId": "et-yemekleri",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tv-1",
+      "name": "Piliç Topkapı Menü",
+      "description": "Kuş üzümlü fıstıklı iç pilavla doldurulmuş fırın piliç sarma. Yanında çorba + cacık ile.",
+      "price": 350,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "chef_choice",
+        "bestseller"
+      ]
+    },
+    {
+      "id": "tv-2",
+      "name": "Ballı Soya Soslu Susamlı Sote Menü",
+      "description": "Wok tavada ballı soya sosu ve susamla sotelenmiş jülyen tavuk. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 340,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "tv-3",
+      "name": "Kremalı Mantar Tavuk Menü",
+      "description": "Taze kültür mantarı, krema ve kekikli tavuk göğsü sote. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 340,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tv-4",
+      "name": "Krepli Tavuk Menü",
+      "description": "İnce krep içerisine mantarlı tavuk harcı, beşamel ve kaşar fırın. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 340,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tv-5",
+      "name": "Tavuk Göğüs Şiş Menü",
+      "description": "Marine edilmiş ızgara tavuk şiş. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 330,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tv-6",
+      "name": "Çıtır Tavuk Menü",
+      "description": "Altın sarısı mısır gevrekli çıtır tavuk filetoları ve sos. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 330,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "tv-7",
+      "name": "Fırında Kalça But (Garnitürlü) Menü",
+      "description": "Fırınlanmış patates ve havuç garnitürlü çıtır kalça but. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 320,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tv-8",
+      "name": "Tavuk Sote Menü",
+      "description": "Köz biber, domates ve kekikle sotelenmiş taze tavuk göğsü. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 310,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tv-9",
+      "name": "Göğüs Izgara Menü",
+      "description": "Zeytinyağı ve taze baharatlarla marine edilmiş tavuk göğüs ızgara. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 310,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tv-10",
+      "name": "Sebzeli Baget Menü",
+      "description": "Fırında domates ve biber sosuyla nar gibi kızarmış tavuk bagetler. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 300,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tv-11",
+      "name": "Haşlama Tavuk Menü",
+      "description": "Sebzeli şifalı tavuk suyuyla pişirilmiş haşlama tavuk. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 290,
+      "categoryId": "tavuk-yemekleri",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sb-1",
+      "name": "Enginar Zeytinyağlı Menü",
+      "description": "Garnitürlü Ege usulü zeytinyağlı çanak enginar. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 310,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "chef_choice"
+      ]
+    },
+    {
+      "id": "sb-2",
+      "name": "Sarma Dolma (Yaprak Sarma) Menü",
+      "description": "Zeytinyağlı pirinçli anne usulü asma yaprağı sarması. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 290,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "sb-3",
+      "name": "Kereviz Portakallı Menü",
+      "description": "Taze sıkılmış portakal suyu ve havuçla pişmiş zeytinyağlı kereviz. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 285,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": false
+    },
+    {
+      "id": "sb-4",
+      "name": "Bamya Menü",
+      "description": "Domates soslu ve limonlu zeytinyağlı taze bamya. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 285,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sb-5",
+      "name": "İmambayıldı Menü",
+      "description": "Bol soğan, sarımsak ve domatesle pişirilmiş fırın patlıcan. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 280,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "sb-6",
+      "name": "Girit Usulü Kabak Menü",
+      "description": "Dereotu ve zeytinyağı ile kısık ateşte pişirilmiş taze Girit kabağı. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 280,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sb-7",
+      "name": "Taze Fasulye Menü",
+      "description": "Zeytinyağlı domatesli çalı fasulye. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 270,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sb-8",
+      "name": "Karışık Kızartma Menü",
+      "description": "Patlıcan, kabak ve biber kızartması, domates ve sarımsaklı sos ile. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 270,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sb-9",
+      "name": "Ispanak Menü",
+      "description": "Pirinçli taze ıspanak yemeği (yoğurt ile). Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 265,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sb-10",
+      "name": "Bezelye Menü",
+      "description": "Havuç ve patatesli taze bezelye yemeği. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 260,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sb-11",
+      "name": "Pırasa Menü",
+      "description": "Zeytinyağlı ve havuçlu pirinçli pırasa. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 260,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sb-12",
+      "name": "Etsiz Kuru Fasulye Menü",
+      "description": "Toprak güveçte kıvamlı pişmiş geleneksel kuru fasulye. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 260,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "sb-13",
+      "name": "Etsiz Nohut Menü",
+      "description": "Tereyağlı kıvamlı nohut yemeği. Menü: Ana Yemek + Pilav + Çorba veya Cacık.",
+      "price": 260,
+      "categoryId": "sebzeli-yemekler",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mk-1",
+      "name": "Lazanya (Kıymalı)",
+      "description": "Bol kıymalı Bolognese ragù soslu, beşamel ve fırın kaşarlı ev lazanyası. Yanında Çorba + Cacık ile verilir.",
+      "price": 340,
+      "categoryId": "makarnalar",
+      "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "chef_choice",
+        "bestseller"
+      ]
+    },
+    {
+      "id": "mk-2",
+      "name": "Fırın Makarna",
+      "description": "Beşamel sos ve nar gibi kızarmış kaşar peyniriyle fırın makarna. Yanında Çorba + Cacık ile verilir.",
+      "price": 280,
+      "categoryId": "makarnalar",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3d5d62817d2?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "mk-3",
+      "name": "Fettuccine Alfredo",
+      "description": "Krema, tereyağı ve parmesan peyniriyle hazırlanan klasik Fettuccine. Yanında Çorba + Cacık ile verilir.",
+      "price": 200,
+      "categoryId": "makarnalar",
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "mk-4",
+      "name": "Erişte",
+      "description": "Tereyağında ceviz ve tulum peyniriyle kavrulmuş el yapımı köy eriştesi. Yanında Çorba + Cacık ile verilir.",
+      "price": 200,
+      "categoryId": "makarnalar",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3d5d62817d2?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mk-5",
+      "name": "Penne",
+      "description": "Dilediğiniz sos ilavesiyle al dente İtalyan Penne makarnası. Yanında Çorba + Cacık ile verilir.",
+      "price": 200,
+      "categoryId": "makarnalar",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3d5d62817d2?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mk-6",
+      "name": "Spagetti",
+      "description": "Geleneksel uzun spagetti. Yanında Çorba + Cacık ile verilir.",
+      "price": 200,
+      "categoryId": "makarnalar",
+      "image": "https://images.unsplash.com/photo-1621996346565-e3d5d62817d2?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": false
+    },
+    {
+      "id": "cr-1",
+      "name": "Mercimek Çorbası",
+      "description": "Tereyağlı nane ve pul biber sosuyla süzme kırmızı mercimek çorbası.",
+      "price": 95,
+      "categoryId": "corbalar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "cr-2",
+      "name": "Yayla Çorbası",
+      "description": "Yoğurtlu, pirinçli ve tereyağlı naneli geleneksel yayla çorbası.",
+      "price": 95,
+      "categoryId": "corbalar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-3",
+      "name": "Sebze Çorbası",
+      "description": "Mevsim sebzeleriyle hazırlanan hafif ve şifalı çorba.",
+      "price": 95,
+      "categoryId": "corbalar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-4",
+      "name": "Mantar Çorbası",
+      "description": "Kremalı taze kültür mantarı çorbası.",
+      "price": 110,
+      "categoryId": "corbalar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-5",
+      "name": "Tavuk Çorbası",
+      "description": "Didiklenmiş tavuk etli, terbiyeli tavuk suyu çorbası.",
+      "price": 115,
+      "categoryId": "corbalar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "cr-6",
+      "name": "Düğün Çorbası",
+      "description": "Kuzu gerdan etli, terbiyeli geleneksel düğün çorbası.",
+      "price": 120,
+      "categoryId": "corbalar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "chef_choice"
+      ]
+    },
+    {
+      "id": "cr-7",
+      "name": "Etli Paça Çorbası",
+      "description": "Sarımsaklı ve sirkeli terbiyesiyle özel etli paça çorbası.",
+      "price": 165,
+      "categoryId": "corbalar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "mz-1",
+      "name": "Deniz Börülcesi",
+      "description": "Zeytinyağı, limon ve sarımsak soslu taze deniz börülcesi.",
+      "price": 140,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-2",
+      "name": "Humus",
+      "description": "Tahin, kimyon, zeytinyağı ve nohut ile hazırlanan Hatay usulü humus.",
+      "price": 125,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "mz-3",
+      "name": "Kabak Karpaçyo",
+      "description": "İncecik dilimlenmiş marine kabak, parmesan ve zeytinyağı.",
+      "price": 125,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-4",
+      "name": "Börülce Salatası",
+      "description": "Kuru börülce, taze soğan, maydanoz ve nar ekşili sos.",
+      "price": 120,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-5",
+      "name": "Acuka",
+      "description": "Cevizli, domates ve biber salçalı baharatlı kahvaltılık meze.",
+      "price": 115,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-6",
+      "name": "Pembe Sultan",
+      "description": "Pancar ve süzme yoğurtlu hafif sarımsaklı sultan mezesi.",
+      "price": 115,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-7",
+      "name": "Rus Salatası",
+      "description": "Patates, havuç, bezelye, kornişon turşu ve mayonez.",
+      "price": 115,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-8",
+      "name": "Pancar Salatası",
+      "description": "Haşlanmış taze kırmızı pancar dilimleri, sarımsak ve zeytinyağı.",
+      "price": 115,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-9",
+      "name": "Teretür",
+      "description": "Tahinli, marullu ve limonlu Adana usulü teretür mezesi.",
+      "price": 110,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-10",
+      "name": "Tarator (Havuç)",
+      "description": "Zeytinyağında sotelenmiş havuç ve sarımsaklı süzme yoğurt.",
+      "price": 110,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-11",
+      "name": "Kısır",
+      "description": "İnce bulgur, nar ekşisi, taze yeşillikler ve ev salçası.",
+      "price": 110,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-12",
+      "name": "Coleslaw",
+      "description": "Beyaz lahana ve havuçlu hafif tatlı lahana salatası.",
+      "price": 110,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-13",
+      "name": "Brokoli",
+      "description": "Zeytinyağı ve limon soslu buharda haşlanmış brokoli.",
+      "price": 105,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "mz-14",
+      "name": "Karnabahar",
+      "description": "Buharda haşlanmış taze karnabahar, zeytinyağı ve limon sos ile.",
+      "price": 105,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sl-1",
+      "name": "Tavuklu Salata (Doyurucu Öğün Boy)",
+      "description": "Izgara tavuk parçaları, Akdeniz yeşillikleri, mısır, çeri domates ve özel sos.",
+      "price": 270,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "sl-2",
+      "name": "Roka Salatası",
+      "description": "Taze körpe roka yaprakları, ceviz, domates ve nar ekşisi.",
+      "price": 115,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sl-3",
+      "name": "Mevsim Salata",
+      "description": "Havuç, mor lahana, marul ve limon zeytinyağı sos.",
+      "price": 105,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sl-4",
+      "name": "Göbek Salata",
+      "description": "Çıtır göbek marul yaprakları, salatalık ve zeytinyağı.",
+      "price": 100,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sl-5",
+      "name": "Cacık (Ekstra Kase)",
+      "description": "Salatalık, süzme yoğurt, zeytinyağı ve taze nane.",
+      "price": 90,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "sl-6",
+      "name": "Yoğurt (Ekstra Kase)",
+      "description": "Geleneksel koyu kıvamlı tava yoğurdu.",
+      "price": 75,
+      "categoryId": "mezeler-salatalar",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-1",
+      "name": "Cheesecake",
+      "description": "Orman meyveli veya limon soslu fırın San Sebastian / New York usulü cheesecake.",
+      "price": 250,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "tt-2",
+      "name": "Magnolya",
+      "description": "Muzlu veya çilekli, bisküvili taze İtalyan kremalı magnolya.",
+      "price": 150,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "tt-3",
+      "name": "Supangle",
+      "description": "Kek tabanlı, yoğun bitter çikolatalı geleneksel supangle.",
+      "price": 140,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-4",
+      "name": "Keşkül",
+      "description": "Badem sübyeli, antep fıstıklı geleneksel Osmanlı saray keşkülü.",
+      "price": 135,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-5",
+      "name": "Tarak Tatlısı",
+      "description": "Özel şekilli, şerbetli ve fındıklı geleneksel tatlı.",
+      "price": 135,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-6",
+      "name": "Kremalı Havuç Tatlısı",
+      "description": "Tarçınlı havuç harcı üzerinde hafif sütlü krema.",
+      "price": 135,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-7",
+      "name": "Sütlaç",
+      "description": "Fırında üzeri nar gibi kızarmış fındıklı geleneksel sütlaç.",
+      "price": 130,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "tt-8",
+      "name": "Kalburabastı",
+      "description": "Ceviz dolgulu nefis kıyır kalburabastı tatlısı.",
+      "price": 130,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-9",
+      "name": "Haşhaşlı Tatlı",
+      "description": "Mavi haşhaşlı, hafif şerbetli ve krem şantili tatlı.",
+      "price": 130,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-10",
+      "name": "Islak Kek",
+      "description": "Bol çikolata soslu yumuşacık sufle kıvamında ıslak kek.",
+      "price": 130,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "tt-11",
+      "name": "Revani",
+      "description": "İrmikli, portakal aromalı şerbetli klasik revani.",
+      "price": 125,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-12",
+      "name": "Şekerpare",
+      "description": "Fındıklı, ağızda dağılan tam kıvamında şekerpare (3 Adet).",
+      "price": 125,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-13",
+      "name": "Havuç Topları",
+      "description": "Bisküvili ve tarçınlı havuç topları, hindistan cevizi kaplı (4 Adet).",
+      "price": 115,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    },
+    {
+      "id": "tt-14",
+      "name": "Elma Topları",
+      "description": "Elmalı, cevizli ve tarçınlı atıştırmalık tatlı toplar (4 Adet).",
+      "price": 115,
+      "categoryId": "tatlilar",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true
+    }
+  ],
+  "lastUpdated": "2026-10-31T19:55:00.224Z"
+}
