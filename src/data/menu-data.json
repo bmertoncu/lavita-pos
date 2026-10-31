@@ -438,7 +438,7 @@
       "price": 285,
       "categoryId": "sebzeli-yemekler",
       "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
-      "isAvailable": false
+      "isAvailable": true
     },
     {
       "id": "sb-4",
@@ -1000,5 +1000,5 @@
       "isAvailable": true
     }
   ],
-  "lastUpdated": "2026-10-31T20:14:04.049Z"
+  "lastUpdated": "2026-10-31T20:14:09.375Z"
 }
