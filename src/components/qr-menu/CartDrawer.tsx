@@ -111,13 +111,13 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
     }
 
     // Save information if checkbox is checked
-    if (typeof window !== 'undefined' && saveInfo) {
-      localStorage.setItem('lavita_customer_name', cleanName);
-      if (cleanPhone) localStorage.setItem('lavita_customer_phone', cleanPhone);
-      if (deliveryType === 'delivery' && cleanAddress) {
-        localStorage.setItem('lavita_customer_address', cleanAddress);
+    if (typeof window !== 'undefined') {
+      if (saveInfo) {
+        if (cleanName) localStorage.setItem('lavita_customer_name', cleanName);
+        if (cleanPhone && cleanPhone !== '-') localStorage.setItem('lavita_customer_phone', cleanPhone);
+        if (cleanAddress) localStorage.setItem('lavita_customer_address', cleanAddress);
+        setHasSavedData(true);
       }
-      setHasSavedData(true);
     }
 
     await onSubmitOrder({
@@ -263,7 +263,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
               <div className="p-2.5 bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/60 rounded-xl flex items-center justify-between text-xs text-emerald-800 dark:text-emerald-300">
                 <div className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Kayıtlı teslimat bilgileriniz yüklendi.</span>
+                  <span>Kayıtlı bilgileriniz (isim, telefon, adres) otomatik yüklendi.</span>
                 </div>
                 <button
                   type="button"
@@ -325,22 +325,22 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                     placeholder="Mahalle, Cadde / Sokak, Bina No, Daire No ve varsa kurye için adres tarifi..."
                     className="w-full px-3.5 py-2.5 bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200 dark:border-zinc-700 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#5b7333]/50 text-zinc-900 dark:text-zinc-100"
                   />
-
-                  {/* Save Address Toggle */}
-                  <label className="flex items-center gap-2 cursor-pointer pt-1">
-                    <input
-                      type="checkbox"
-                      checked={saveInfo}
-                      onChange={(e) => setSaveInfo(e.target.checked)}
-                      className="w-4 h-4 rounded text-[#1e3a1e] focus:ring-[#5b7333] border-zinc-300 dark:border-zinc-700"
-                    />
-                    <span className="text-xs font-semibold text-zinc-600 dark:text-zinc-400 flex items-center gap-1">
-                      <BookmarkCheck className="w-3.5 h-3.5 text-[#5b7333]" />
-                      <span>Bu adresi sonraki siparişlerim için kaydet</span>
-                    </span>
-                  </label>
                 </div>
               )}
+
+              {/* Save Information Checkbox (Applies to Name, Phone & Address) */}
+              <label className="flex items-center gap-2.5 cursor-pointer pt-1 pb-1 px-1 select-none">
+                <input
+                  type="checkbox"
+                  checked={saveInfo}
+                  onChange={(e) => setSaveInfo(e.target.checked)}
+                  className="w-4 h-4 rounded text-[#1e3a1e] focus:ring-[#5b7333] border-zinc-300 dark:border-zinc-700 cursor-pointer"
+                />
+                <span className="text-xs font-bold text-zinc-700 dark:text-zinc-300 flex items-center gap-1.5">
+                  <BookmarkCheck className="w-4 h-4 text-[#5b7333]" />
+                  <span>Bu bilgileri bir sonraki siparişim için kaydet</span>
+                </span>
+              </label>
 
               {/* Order Note Field */}
               <div>
