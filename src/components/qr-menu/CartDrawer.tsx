@@ -38,9 +38,9 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
 
   const handleWhatsAppSubmit = async () => {
     await onSubmitOrder({
-      name: customerName || (tableNumber ? `Masa ${tableNumber}` : 'Müşteri'),
+      name: customerName.trim(),
       phone: '-',
-      note: orderNote,
+      note: orderNote.trim(),
     });
   };
 
@@ -141,31 +141,29 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
             <div className="space-y-3 pt-2">
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-zinc-500 mb-1">
-                  Sipariş / Masa Notu
+                  Masa No veya İsim (İsteğe Bağlı)
+                </label>
+                <input
+                  type="text"
+                  value={customerName}
+                  onChange={(e) => setCustomerName(e.target.value)}
+                  placeholder="Örn: Masa 3 veya Burak B."
+                  className="w-full px-3 py-2 bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200 dark:border-zinc-700 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-[#5b7333]/50 text-zinc-900 dark:text-zinc-100"
+                />
+              </div>
+
+              <div>
+                <label className="block text-xs font-bold uppercase tracking-wider text-zinc-500 mb-1">
+                  Sipariş Notu (İsteğe Bağlı)
                 </label>
                 <textarea
                   rows={2}
                   value={orderNote}
                   onChange={(e) => setOrderNote(e.target.value)}
                   placeholder="Örn: Çorba az tuzlu olsun..."
-                  className="w-full px-3 py-2 bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200 dark:border-zinc-700 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-[#5b7333]/50"
+                  className="w-full px-3 py-2 bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200 dark:border-zinc-700 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-[#5b7333]/50 text-zinc-900 dark:text-zinc-100"
                 />
               </div>
-
-              {!tableNumber && (
-                <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-zinc-500 mb-1">
-                    İsim veya Masa Numarası
-                  </label>
-                  <input
-                    type="text"
-                    value={customerName}
-                    onChange={(e) => setCustomerName(e.target.value)}
-                    placeholder="Örn: Masa 3 veya Ahmet Y."
-                    className="w-full px-3 py-2 bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200 dark:border-zinc-700 rounded-xl text-xs"
-                  />
-                </div>
-              )}
             </div>
           </div>
         )}

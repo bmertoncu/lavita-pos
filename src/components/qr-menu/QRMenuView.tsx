@@ -16,6 +16,7 @@ import {
   Eye,
   Sun,
   Moon,
+  ShoppingBag,
 } from 'lucide-react';
 
 interface QRMenuViewProps {
@@ -146,14 +147,13 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
 
       const message = encodeURIComponent(
         `🌿 *La'Vita Yeni Sipariş*\n` +
-          (tableNumber
-            ? `📍 *Masa:* Masa ${tableNumber}\n`
-            : `👤 *Müşteri:* ${customerData.name}\n`) +
+          (tableNumber ? `📍 *Masa:* Masa ${tableNumber}\n` : '') +
+          (customerData.name ? `👤 *İsim / Not:* ${customerData.name}\n` : '') +
           `\n*Ürünler:*\n${itemLines}\n\n` +
-          (customerData.note ? `📝 *Not:* ${customerData.note}\n\n` : '') +
+          (customerData.note ? `📝 *Sipariş Notu:* ${customerData.note}\n\n` : '') +
           `💰 *Toplam:* ${subtotal.toLocaleString('tr-TR')} ₺`
       );
-      window.open(`https://wa.me/905320000000?text=${message}`, '_blank');
+      window.open(`https://wa.me/905529160166?text=${message}`, '_blank');
       setCart([]);
       setIsCartOpen(false);
     } finally {
@@ -229,10 +229,15 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
                 <span>Masa {tableNumber}</span>
               </div>
             )}
-            {isViewOnly && (
+            {isViewOnly ? (
               <div className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-[#5b7333] text-white rounded-full text-xs font-black shadow-sm">
                 <Eye className="w-3.5 h-3.5" />
-                <span>Dijital Katalog Menüsü</span>
+                <span>Dijital Katalog Menüsü (Sadece İnceleme)</span>
+              </div>
+            ) : (
+              <div className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-[#1e3a1e] text-[#f3ebd3] rounded-full text-xs font-black shadow-sm">
+                <ShoppingBag className="w-3.5 h-3.5" />
+                <span>WhatsApp Siparişli Menü</span>
               </div>
             )}
           </div>
