@@ -133,6 +133,7 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
     setSubmitting(true);
     try {
       const subtotal = cart.reduce((sum, ci) => sum + ci.item.price * ci.quantity, 0);
+      const orderNumber = `#WA-${Math.floor(1000 + Math.random() * 9000)}`;
       const itemLines = cart
         .map(
           (ci) =>
@@ -150,6 +151,7 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
       const message = encodeURIComponent(
         `🌿 *La'Vita Yeni Sipariş*\n` +
           `${deliveryTypeText}\n` +
+          `Sipariş No: ${orderNumber}\n` +
           `👤 *Müşteri:* ${orderData.name}\n` +
           (orderData.phone && orderData.phone !== '-' ? `📞 *Telefon:* ${orderData.phone}\n` : '') +
           (orderData.deliveryType === 'delivery' && orderData.address
