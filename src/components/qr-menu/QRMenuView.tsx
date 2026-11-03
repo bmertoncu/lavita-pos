@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { MenuItem, MenuCategory } from '@/types';
-import { CartDrawer, CartItem } from './CartDrawer';
+import { CartDrawer, CartItem, CustomerOrderData } from './CartDrawer';
 import {
   Search,
   Pizza,
@@ -17,6 +17,7 @@ import {
   Sun,
   Moon,
   ShoppingBag,
+  Bike,
 } from 'lucide-react';
 
 interface QRMenuViewProps {
@@ -128,11 +129,7 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
     });
   };
 
-  const handleSubmitOrder = async (customerData: {
-    name: string;
-    phone: string;
-    note: string;
-  }) => {
+  const handleSubmitOrder = async (orderData: CustomerOrderData) => {
     setSubmitting(true);
     try {
       const subtotal = cart.reduce((sum, ci) => sum + ci.item.price * ci.quantity, 0);
@@ -145,13 +142,22 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
         )
         .join('\n');
 
+      const deliveryTypeText =
+        orderData.deliveryType === 'delivery'
+          ? '🛵 *Teslimat Şekli:* Adrese Teslim (Paket Servis)'
+          : '🛍️ *Teslimat Şekli:* Gel-Al (Restorandan Teslim)';
+
       const message = encodeURIComponent(
         `🌿 *La'Vita Yeni Sipariş*\n` +
-          (tableNumber ? `📍 *Masa:* Masa ${tableNumber}\n` : '') +
-          (customerData.name ? `👤 *İsim / Not:* ${customerData.name}\n` : '') +
+          `${deliveryTypeText}\n` +
+          `👤 *Müşteri:* ${orderData.name}\n` +
+          (orderData.phone && orderData.phone !== '-' ? `📞 *Telefon:* ${orderData.phone}\n` : '') +
+          (orderData.deliveryType === 'delivery' && orderData.address
+            ? `📍 *Teslimat Adresi:*\n${orderData.address}\n`
+            : '') +
           `\n*Ürünler:*\n${itemLines}\n\n` +
-          (customerData.note ? `📝 *Sipariş Notu:* ${customerData.note}\n\n` : '') +
-          `💰 *Toplam:* ${subtotal.toLocaleString('tr-TR')} ₺`
+          (orderData.note ? `📝 *Sipariş Notu:* ${orderData.note}\n\n` : '') +
+          `💰 *Toplam Tutar:* ${subtotal.toLocaleString('tr-TR')} ₺`
       );
       window.open(`https://wa.me/905529160166?text=${message}`, '_blank');
       setCart([]);
@@ -236,8 +242,8 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
               </div>
             ) : (
               <div className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-[#1e3a1e] text-[#f3ebd3] rounded-full text-xs font-black shadow-sm">
-                <ShoppingBag className="w-3.5 h-3.5" />
-                <span>WhatsApp Siparişli Menü</span>
+                <Bike className="w-3.5 h-3.5" />
+                <span>Online Sipariş (Paket Servis & Gel-Al)</span>
               </div>
             )}
           </div>
