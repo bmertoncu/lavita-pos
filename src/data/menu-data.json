@@ -112,7 +112,7 @@
       "price": 380,
       "categoryId": "sporcu",
       "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&auto=format&fit=crop&q=80",
-      "isAvailable": true,
+      "isAvailable": false,
       "badges": [
         "bestseller"
       ]
@@ -1014,5 +1014,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-03T20:43:42.318Z"
+  "lastUpdated": "2026-11-03T20:43:44.537Z"
 }
