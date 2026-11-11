@@ -124,7 +124,7 @@
       "price": 560,
       "categoryId": "et-yemekleri",
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
-      "isAvailable": false,
+      "isAvailable": true,
       "badges": [
         "chef_choice"
       ]
@@ -1014,5 +1014,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-11T09:15:27.823Z"
+  "lastUpdated": "2026-11-11T09:15:29.671Z"
 }
