@@ -136,7 +136,7 @@
       "price": 550,
       "categoryId": "et-yemekleri",
       "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
-      "isAvailable": true
+      "isAvailable": false
     },
     {
       "id": "et-3",
@@ -1014,5 +1014,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-11T19:25:14.414Z"
+  "lastUpdated": "2026-11-11T19:25:25.328Z"
 }
