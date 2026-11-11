@@ -598,7 +598,7 @@
       "price": 200,
       "categoryId": "makarnalar",
       "image": "https://images.unsplash.com/photo-1621996346565-e3d5d62817d2?w=800&auto=format&fit=crop&q=80",
-      "isAvailable": false
+      "isAvailable": true
     },
     {
       "id": "cr-1",
@@ -1014,5 +1014,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-11T09:15:38.680Z"
+  "lastUpdated": "2026-11-11T09:15:41.282Z"
 }
