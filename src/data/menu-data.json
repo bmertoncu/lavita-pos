@@ -78,6 +78,19 @@
       ]
     },
     {
+      "id": "pilav-ustu-tavuk",
+      "name": "Pilav Üstü Tavuk",
+      "description": "Tane tane tereyağlı pirinç pilavı üzerinde leziz didiklenmiş tavuk eti, karabiber ile.",
+      "price": 250,
+      "categoryId": "gunun-menusu",
+      "image": "/uploads/pilav-ustu-tavuk.jpg",
+      "isAvailable": true,
+      "preparationTime": 5,
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
       "id": "zeytinyagli-kereviz-pilav",
       "name": "Zeytinyağlı Kereviz + Pilav",
       "description": "Portakal ve taze sızma zeytinyağı ile pişirilmiş enfes kereviz yemeği, yanında pilav ile.",
@@ -396,5 +409,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-18T10:14:00.000Z"
+  "lastUpdated": "2026-11-18T12:00:00.000Z"
 }
