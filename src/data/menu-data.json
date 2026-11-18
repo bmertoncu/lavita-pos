@@ -48,7 +48,7 @@
       "description": "Geleneksel toprak güveçte pişen dana eti ve taze sebzeler, yanında tane tane tereyağlı pilav ile servis edilir.",
       "price": 350,
       "categoryId": "gunun-menusu",
-      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80",
+      "image": "/uploads/guvec-pilav.jpg",
       "isAvailable": true,
       "preparationTime": 15,
       "allergens": [
@@ -180,7 +180,7 @@
       "description": "Taş fırında nar gibi kızartılmış hakiki Hamsiköy sütlacı, üzeri bol kavrulmuş fındık ile.",
       "price": 150,
       "categoryId": "tatlilar",
-      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&auto=format&fit=crop&q=80",
+      "image": "/uploads/hamsikoy-sutlac.jpg",
       "isAvailable": true,
       "preparationTime": 5,
       "allergens": [
