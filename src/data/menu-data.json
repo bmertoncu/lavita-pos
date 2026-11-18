@@ -290,17 +290,103 @@
       "badges": []
     },
     {
-      "id": "kutu-icecekler",
-      "name": "Kutu İçecekler",
-      "description": "Kola, Fanta, Gazoz veya Soğuk Çay çeşitleri (330 ml).",
-      "price": 50,
+      "id": "coca-cola-kola",
+      "name": "Coca-Cola Kola",
+      "description": "330ml Kutu Kola",
+      "price": 80,
       "categoryId": "icecekler",
-      "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&auto=format&fit=crop&q=80",
+      "image": "/uploads/coca-cola-kola.jpg",
       "isAvailable": true,
-      "preparationTime": 2,
+      "preparationTime": 1,
+      "allergens": [],
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "coca-cola-zero",
+      "name": "Coca-Cola Zero",
+      "description": "330ml Sıfır Şeker Kutu Kola",
+      "price": 80,
+      "categoryId": "icecekler",
+      "image": "/uploads/coca-cola-zero.jpg",
+      "isAvailable": true,
+      "preparationTime": 1,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "sprite",
+      "name": "Sprite",
+      "description": "330ml Sprite Kutu Gazoz",
+      "price": 80,
+      "categoryId": "icecekler",
+      "image": "/uploads/sprite.jpg",
+      "isAvailable": true,
+      "preparationTime": 1,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "fanta",
+      "name": "Fanta",
+      "description": "330ml Fanta Kutu İçecek",
+      "price": 80,
+      "categoryId": "icecekler",
+      "image": "/uploads/fanta.jpg",
+      "isAvailable": true,
+      "preparationTime": 1,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "fusetea-mango-ananas",
+      "name": "Mango ve Ananas Aromalı Fusetea",
+      "description": "330ml Fusetea Kutu Soğuk Çay",
+      "price": 80,
+      "categoryId": "icecekler",
+      "image": "/uploads/fusetea-mango-ananas.jpg",
+      "isAvailable": true,
+      "preparationTime": 1,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "fusetea-limon",
+      "name": "Limon Aromalı Fusetea",
+      "description": "330ml Fusetea Kutu İçecek",
+      "price": 80,
+      "categoryId": "icecekler",
+      "image": "/uploads/fusetea-limon.jpg",
+      "isAvailable": true,
+      "preparationTime": 1,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "cappy-visne",
+      "name": "Vişne Aromalı Cappy",
+      "description": "330ml Kutu Meşrubat",
+      "price": 80,
+      "categoryId": "icecekler",
+      "image": "/uploads/cappy-visne.jpg",
+      "isAvailable": true,
+      "preparationTime": 1,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "cappy-seftali",
+      "name": "Şeftali Aromalı Cappy",
+      "description": "330ml Kutu Meşrubat",
+      "price": 80,
+      "categoryId": "icecekler",
+      "image": "/uploads/cappy-seftali.jpg",
+      "isAvailable": true,
+      "preparationTime": 1,
       "allergens": [],
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-18T04:01:48.645Z"
+  "lastUpdated": "2026-11-18T06:08:00.000Z"
 }
