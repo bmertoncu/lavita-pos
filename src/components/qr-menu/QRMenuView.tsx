@@ -147,7 +147,9 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
         `💰 *Toplam Tutar:* ${subtotal} ₺`;
 
       const waUrl = `https://wa.me/${restaurantPhone}?text=${encodeURIComponent(message)}`;
-      window.open(waUrl, '_blank');
+      if (typeof window !== 'undefined') {
+        window.location.href = waUrl;
+      }
       setCart([]);
       setIsCartOpen(false);
     } catch (e) {
@@ -277,19 +279,17 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
           <p className="text-white/80 text-sm sm:text-lg max-w-2xl leading-relaxed mb-6 font-medium">
             {isViewOnly
               ? 'Taze malzemelerle hazırlanan günün zeytinyağlı yemeklerini, sporcu öğünlerini ve tatlılarını inceleyebilirsiniz.'
-              : 'Ürününüzü seçin; siparişinizi doğrudan WhatsApp üzerinden teslimat veya gel-al olarak kolayca verin.'}
+              : 'Ürününüzü seçin; siparişinizi doğrudan telefonla arayarak veya sepetiniz üzerinden WhatsApp ile kolayca verin.'}
           </p>
 
           {/* Hero Order Actions */}
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href="https://wa.me/905529160166?text=Merhaba%2C%20La%27Vita%20men%C3%BCs%C3%BC%20hakk%C4%B1nda%20bilgi%20almak%20ve%20sipari%C5%9F%20vermek%20istiyorum."
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:+905529160166"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[#c5a059] hover:bg-[#b08e4c] active:scale-95 text-[#1a2819] font-black text-xs sm:text-sm shadow-lg transition-all"
             >
-              <MessageCircle className="w-4 h-4 fill-current stroke-none" />
-              <span>Sipariş &amp; WhatsApp: 0552 916 0166</span>
+              <Phone className="w-4 h-4 fill-current" />
+              <span>Sipariş: 0552 916 0166</span>
             </a>
 
             <button
