@@ -313,6 +313,11 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
           {/* Horizontal scrollable pills */}
           <div className="flex items-center gap-2 overflow-x-auto scrollbar-none py-1">
             {categories.map((cat) => {
+              const hasAvailable = menuItems.some(
+                (i) => i.categoryId === cat.id && i.isAvailable !== false
+              );
+              if (!hasAvailable) return null;
+
               const Icon = getCategoryIcon(cat.icon);
               const isActive = activeCategory === `cat-${cat.id}`;
               return (
@@ -357,7 +362,9 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
       {/* 3. MENU SECTIONS & CARDS (Exact Katmer Park Grid & Card Architecture) */}
       <main className="max-w-5xl mx-auto px-4 sm:px-6 py-6 space-y-10">
         {categories.map((cat) => {
-          let items = menuItems.filter((i) => i.categoryId === cat.id);
+          let items = menuItems.filter(
+            (i) => i.categoryId === cat.id && i.isAvailable !== false
+          );
 
           if (searchQuery.trim() !== '') {
             const q = searchQuery.toLowerCase();
@@ -368,7 +375,7 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
             );
           }
 
-          if (items.length === 0 && searchQuery.trim() !== '') {
+          if (items.length === 0) {
             return null;
           }
 
@@ -403,9 +410,7 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
                   return (
                     <article
                       key={item.id}
-                      className={`relative bg-white dark:bg-[#141e14] border border-[#e4decb] dark:border-[#253625] rounded-2xl p-3 sm:p-3.5 shadow-sm transition-all hover:border-[#b4c496] hover:shadow-md flex items-center gap-3.5 ${
-                        !item.isAvailable ? 'opacity-60 bg-stone-50 dark:bg-[#111811]' : ''
-                      }`}
+                      className="relative bg-white dark:bg-[#141e14] border border-[#e4decb] dark:border-[#253625] rounded-2xl p-3 sm:p-3.5 shadow-sm transition-all hover:border-[#b4c496] hover:shadow-md flex items-center gap-3.5"
                     >
                       {/* Left: Circular / Rounded Thumbnail (Katmer Park Click-to-Zoom style) */}
                       <div className="relative shrink-0">
@@ -424,11 +429,6 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
                           className="w-18 h-18 sm:w-20 sm:h-20 rounded-full sm:rounded-2xl border-2 border-[#c5a059]/40 object-cover cursor-zoom-in hover:scale-105 active:scale-95 transition-transform bg-stone-100 dark:bg-stone-800 shadow-sm"
                           title="Fotoğrafı büyütmek için dokunun"
                         />
-                        {!item.isAvailable && (
-                          <span className="absolute inset-0 bg-black/60 rounded-full sm:rounded-2xl flex items-center justify-center text-[10px] font-black text-white uppercase tracking-wider">
-                            Tükendi
-                          </span>
-                        )}
                       </div>
 
                       {/* Right: Item Body (Katmer Park Architecture) */}
@@ -457,44 +457,36 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
 
                           {/* Action Button */}
                           {!isViewOnly && (
-                            <>
-                              {item.isAvailable ? (
-                                inCart ? (
-                                  <div className="flex items-center gap-1.5 bg-[#edf2e3] dark:bg-[#23351f] px-1.5 py-0.5 rounded-full border border-[#cad8b0] dark:border-[#385233]">
-                                    <button
-                                      onClick={() => handleUpdateQuantity(item.id, -1)}
-                                      className="w-6 h-6 rounded-full bg-white dark:bg-zinc-800 text-[#1e3a1e] dark:text-white flex items-center justify-center font-black text-xs shadow-sm hover:scale-110 active:scale-95 transition-transform"
-                                      aria-label="Azalt"
-                                    >
-                                      <Minus className="w-3 h-3 stroke-[3]" />
-                                    </button>
-                                    <span className="font-black text-xs text-[#1e3a1e] dark:text-[#d4e3bc] px-1 font-mono">
-                                      {inCart.quantity}
-                                    </span>
-                                    <button
-                                      onClick={() => handleUpdateQuantity(item.id, 1)}
-                                      className="w-6 h-6 rounded-full bg-[#1e3a1e] text-white flex items-center justify-center font-black text-xs shadow-sm hover:scale-110 active:scale-95 transition-transform"
-                                      aria-label="Artır"
-                                    >
-                                      <Plus className="w-3 h-3 stroke-[3]" />
-                                    </button>
-                                  </div>
-                                ) : (
-                                  <button
-                                    onClick={() => handleAddToCart(item)}
-                                    className="px-3 py-1 bg-[#1e3a1e] hover:bg-[#2a4e2a] dark:bg-[#5b7333] dark:hover:bg-[#6c883e] active:scale-95 text-white font-extrabold text-[11px] sm:text-xs rounded-full transition-all shadow-sm flex items-center gap-1"
-                                    aria-label={`${item.name} sepete ekle`}
-                                  >
-                                    <span>Sepete Ekle</span>
-                                    <Plus className="w-3 h-3 stroke-[3]" />
-                                  </button>
-                                )
-                              ) : (
-                                <span className="text-[11px] font-bold text-stone-400">
-                                  Servis Dışı
+                            inCart ? (
+                              <div className="flex items-center gap-1.5 bg-[#edf2e3] dark:bg-[#23351f] px-1.5 py-0.5 rounded-full border border-[#cad8b0] dark:border-[#385233]">
+                                <button
+                                  onClick={() => handleUpdateQuantity(item.id, -1)}
+                                  className="w-6 h-6 rounded-full bg-white dark:bg-zinc-800 text-[#1e3a1e] dark:text-white flex items-center justify-center font-black text-xs shadow-sm hover:scale-110 active:scale-95 transition-transform"
+                                  aria-label="Azalt"
+                                >
+                                  <Minus className="w-3 h-3 stroke-[3]" />
+                                </button>
+                                <span className="font-black text-xs text-[#1e3a1e] dark:text-[#d4e3bc] px-1 font-mono">
+                                  {inCart.quantity}
                                 </span>
-                              )}
-                            </>
+                                <button
+                                  onClick={() => handleUpdateQuantity(item.id, 1)}
+                                  className="w-6 h-6 rounded-full bg-[#1e3a1e] text-white flex items-center justify-center font-black text-xs shadow-sm hover:scale-110 active:scale-95 transition-transform"
+                                  aria-label="Artır"
+                                >
+                                  <Plus className="w-3 h-3 stroke-[3]" />
+                                </button>
+                              </div>
+                            ) : (
+                              <button
+                                onClick={() => handleAddToCart(item)}
+                                className="px-3 py-1 bg-[#1e3a1e] hover:bg-[#2a4e2a] dark:bg-[#5b7333] dark:hover:bg-[#6c883e] active:scale-95 text-white font-extrabold text-[11px] sm:text-xs rounded-full transition-all shadow-sm flex items-center gap-1"
+                                aria-label={`${item.name} sepete ekle`}
+                              >
+                                <span>Sepete Ekle</span>
+                                <Plus className="w-3 h-3 stroke-[3]" />
+                              </button>
+                            )
                           )}
                         </div>
                       </div>
