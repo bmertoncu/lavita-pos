@@ -135,7 +135,7 @@
       "description": "Geleneksel süzme mercimek çorbası, tereyağlı pul biberli sos ve taze limon dilimi ile.",
       "price": 100,
       "categoryId": "corbalar",
-      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "image": "/uploads/mercimek-corbasi.jpg",
       "isAvailable": true,
       "preparationTime": 5,
       "allergens": [
@@ -185,7 +185,7 @@
       "description": "Geleneksel usulde hakiki tereyağı ile demlenmiş tane tane leziz pirinç pilavı.",
       "price": 80,
       "categoryId": "pilav-yan-lezzetler",
-      "image": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&auto=format&fit=crop&q=80",
+      "image": "/uploads/pirinc-pilavi.jpg",
       "isAvailable": true,
       "preparationTime": 5,
       "allergens": [
@@ -200,7 +200,7 @@
       "description": "Köy tereyağı ve domates sosu ile pişirilmiş besleyici geleneksel bulgur pilavı.",
       "price": 80,
       "categoryId": "pilav-yan-lezzetler",
-      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&auto=format&fit=crop&q=80",
+      "image": "/uploads/bulgur-pilavi.jpg",
       "isAvailable": true,
       "preparationTime": 5,
       "allergens": [
