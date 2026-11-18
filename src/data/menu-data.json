@@ -252,17 +252,25 @@
       ]
     },
     {
-      "id": "ayran-yayik",
-      "name": "Yayık Ayran",
-      "description": "Doğal yoğurttan bol köpüklü ferahlatıcı yayık ayran.",
-      "price": 35,
+      "id": "ayran-kucuk",
+      "name": "Ayran (Küçük)",
+      "description": "Eker Tombul Ayran (Küçük boy)",
+      "price": 20,
       "categoryId": "icecekler",
-      "image": "/uploads/yayik-ayran.jpg",
+      "image": "/uploads/ayran-kucuk.jpg",
       "isAvailable": true,
-      "preparationTime": 3,
-      "allergens": [
-        "Süt Ürünü"
-      ],
+      "preparationTime": 1,
+      "badges": []
+    },
+    {
+      "id": "ayran-buyuk",
+      "name": "Ayran (Büyük)",
+      "description": "Eker Tombul Ayran (Büyük boy)",
+      "price": 40,
+      "categoryId": "icecekler",
+      "image": "/uploads/ayran-buyuk.jpg",
+      "isAvailable": true,
+      "preparationTime": 1,
       "badges": []
     },
     {
@@ -388,5 +396,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-18T09:55:00.000Z"
+  "lastUpdated": "2026-11-18T10:14:00.000Z"
 }
