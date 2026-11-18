@@ -229,7 +229,7 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
                 La&apos;Vita
               </span>
               <span className="text-[10px] sm:text-xs text-[#d8c28a] font-bold tracking-wider uppercase block mt-0.5">
-                Mutfak &amp; Cafe
+                Lokanta &amp; Cafe
               </span>
             </div>
           </a>
