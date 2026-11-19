@@ -48,7 +48,7 @@
       "description": "İncecik sarılmış zeytinyağlı ev yapımı yaprak sarma, yanında taze süzme yoğurt ile.",
       "price": 350,
       "categoryId": "gunun-menusu",
-      "image": "/uploads/zeytinyagli-yaprak-sarma-v2.jpg",
+      "image": "/uploads/zeytinyagli-sarma-yogurt-v3.jpg",
       "isAvailable": true,
       "preparationTime": 10,
       "allergens": [
@@ -57,6 +57,18 @@
       "badges": [
         "bestseller"
       ]
+    },
+    {
+      "id": "dolma-ve-zeytinyagli-sarma",
+      "name": "Dolma ve Zeytinyağlı Sarma",
+      "description": "Zeytinyağlı ev yapımı yaprak sarma ve kuru patlıcan/biber dolması tabağı.",
+      "price": 350,
+      "categoryId": "gunun-menusu",
+      "image": "/uploads/zeytinyagli-yaprak-sarma-v2.jpg",
+      "isAvailable": false,
+      "preparationTime": 10,
+      "allergens": [],
+      "badges": []
     },
     {
       "id": "guvec-pilav",
@@ -192,7 +204,7 @@
       "description": "Kıvamlı yoğurt, pirinç ve mis kokulu tereyağlı taze nane sosu ile hazırlanan geleneksel yayla çorbası.",
       "price": 100,
       "categoryId": "corbalar",
-      "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=800&auto=format&fit=crop&q=80",
+      "image": "/uploads/yayla-corbasi-v2.jpg",
       "isAvailable": true,
       "preparationTime": 5,
       "allergens": [
@@ -274,7 +286,7 @@
       "description": "Taze salatalık, süzme yoğurt, soğuk sıkım sızma zeytinyağı ve kuru nane ile serinletici ev yapımı cacık.",
       "price": 80,
       "categoryId": "pilav-yan-lezzetler",
-      "image": "/uploads/cacik.jpg",
+      "image": "/uploads/cacik-v2.jpg",
       "isAvailable": true,
       "preparationTime": 5,
       "allergens": [
@@ -518,5 +530,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T13:25:00.000Z"
+  "lastUpdated": "2026-11-19T13:31:00.000Z"
 }
