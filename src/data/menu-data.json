@@ -338,13 +338,25 @@
       "description": "Taze demlenmiş Rize çayı, ince belli cam bardakta yanında günün tatlı ikramı ile.",
       "price": 25,
       "categoryId": "icecekler",
-      "image": "/uploads/cay-ikram.jpg",
+      "image": "/uploads/rize-cayi.jpg",
       "isAvailable": true,
       "preparationTime": 3,
       "allergens": [],
       "badges": [
         "bestseller"
       ]
+    },
+    {
+      "id": "bitki-cayi",
+      "name": "Bitki Çayı",
+      "description": "Doğal seçkin bitki çayı çeşitleri (Ihlamur, Adaçayı, Papatya, Kış Çayı).",
+      "price": 100,
+      "categoryId": "icecekler",
+      "image": "/uploads/bitki-cayi.jpg",
+      "isAvailable": true,
+      "preparationTime": 4,
+      "allergens": [],
+      "badges": []
     },
     {
       "id": "ayran-kucuk",
@@ -506,5 +518,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T10:20:10.794Z"
+  "lastUpdated": "2026-11-19T13:25:00.000Z"
 }
