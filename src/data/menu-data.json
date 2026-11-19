@@ -465,7 +465,18 @@
       "preparationTime": 1,
       "allergens": [],
       "badges": []
+    },
+    {
+      "id": "__healthcheck_test__",
+      "name": "Test Urunu",
+      "description": "Otomatik kontrol",
+      "price": 10,
+      "categoryId": "icecekler",
+      "image": "/uploads/su.jpg",
+      "isAvailable": false,
+      "preparationTime": 1,
+      "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T09:16:00.000Z"
+  "lastUpdated": "2026-11-19T06:19:03.867Z"
 }
