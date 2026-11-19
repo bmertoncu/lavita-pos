@@ -521,7 +521,7 @@
       "price": 80,
       "categoryId": "gunun-menusu",
       "image": "/uploads/icli-kofte-adet-v2.jpg",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 5,
       "allergens": [
         "Gluten",
@@ -614,5 +614,5 @@
       "allergens": []
     }
   ],
-  "lastUpdated": "2026-11-19T17:30:49.841Z"
+  "lastUpdated": "2026-11-19T17:31:32.302Z"
 }
