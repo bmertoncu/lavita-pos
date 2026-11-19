@@ -155,7 +155,7 @@
     {
       "id": "icli-kofte-menu-ayran",
       "name": "İçli Köfte + Salata + Ayran",
-      "description": "El açması çıtır kabuklu, bol cevizli ve dana kıymalı içli köfte porsiyonu, yanında taze salata ve ayran ile.",
+      "description": "3 adet haşlama dana kıymalı içli köfte, yanında taze salata ve ayran ile.",
       "price": 400,
       "categoryId": "gunun-menusu",
       "image": "/uploads/icli-kofte-menu-v2.jpg",
@@ -614,5 +614,5 @@
       "allergens": []
     }
   ],
-  "lastUpdated": "2026-11-19T17:30:28.159Z"
+  "lastUpdated": "2026-11-19T17:30:49.841Z"
 }
