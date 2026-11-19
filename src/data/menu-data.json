@@ -285,12 +285,36 @@
       ]
     },
     {
-      "id": "salatalar-brokoli-karnabahar",
-      "name": "Salatalar (Brokoli - Karnabahar)",
-      "description": "Zeytinyağlı ve limonlu taze haşlanmış brokoli ve karnabahar salatası.",
+      "id": "salata",
+      "name": "Salata",
+      "description": "Taze mevsim yeşillikleri, domates, salatalık, havuç, zeytinyağı ve limon sosu ile.",
       "price": 80,
       "categoryId": "pilav-yan-lezzetler",
-      "image": "/uploads/salata-brokoli-karnabahar.jpg",
+      "image": "/uploads/salata.jpg",
+      "isAvailable": true,
+      "preparationTime": 5,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "brokoli",
+      "name": "Brokoli",
+      "description": "Zeytinyağlı ve limonlu taze haşlanmış brokoli salatası.",
+      "price": 80,
+      "categoryId": "pilav-yan-lezzetler",
+      "image": "/uploads/brokoli.jpg",
+      "isAvailable": true,
+      "preparationTime": 5,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "karnabahar",
+      "name": "Karnabahar",
+      "description": "Zeytinyağlı ve limonlu taze haşlanmış karnabahar salatası.",
+      "price": 80,
+      "categoryId": "pilav-yan-lezzetler",
+      "image": "/uploads/karnabahar.jpg",
       "isAvailable": true,
       "preparationTime": 5,
       "allergens": [],
@@ -467,5 +491,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T06:19:05.818Z"
+  "lastUpdated": "2026-11-19T09:27:00.000Z"
 }
