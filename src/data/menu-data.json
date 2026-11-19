@@ -60,7 +60,7 @@
     },
     {
       "id": "dolma-ve-zeytinyagli-sarma",
-      "name": "Dolma ve Zeytinyağlı Sarma + Yoğurt",
+      "name": "Dolma ve Zeytinyağlı Sarma",
       "description": "Zeytinyağlı ev yapımı yaprak sarma ve kuru patlıcan/biber dolması tabağı.",
       "price": 350,
       "categoryId": "gunun-menusu",
@@ -95,7 +95,7 @@
       "price": 300,
       "categoryId": "gunun-menusu",
       "image": "/uploads/tavuk-haslama-v2.jpg",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 15,
       "allergens": [
         "Gluten",
@@ -283,7 +283,7 @@
     {
       "id": "cacik-yogurt",
       "name": "Cacık / Yoğurt",
-      "description": "Taze salatalık, süzme yoğurt, soğuk sıkım sızma zeytinyağı ve kuru nane ile serinletici ev yapımı cacık.",
+      "description": "Taze salatalık, süzme yoğurt, soğuk pres sızma zeytinyağı ve kuru nane ile serinletici ev yapımı cacık.",
       "price": 80,
       "categoryId": "pilav-yan-lezzetler",
       "image": "/uploads/cacik-v2.jpg",
@@ -394,7 +394,7 @@
     },
     {
       "id": "su",
-      "name": "Su",
+      "name": "Su (500 ml)",
       "description": "Doğal kaynak suyu.",
       "price": 20,
       "categoryId": "icecekler",
@@ -530,5 +530,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T14:55:51.131Z"
+  "lastUpdated": "2026-11-19T16:45:25.851Z"
 }
