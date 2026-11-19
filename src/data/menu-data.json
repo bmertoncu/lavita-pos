@@ -95,7 +95,7 @@
       "price": 300,
       "categoryId": "gunun-menusu",
       "image": "/uploads/tavuk-haslama-v2.jpg",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 15,
       "allergens": [
         "Gluten",
@@ -347,10 +347,10 @@
     {
       "id": "cay-ikram",
       "name": "Çay + İkram",
-      "description": "Taze demlenmiş Rize çayı, ince belli cam bardakta yanında günün tatlı ikramı ile.",
+      "description": "Taze demlenmiş çay, ince belli cam bardakta yanında günün tatlı ikramı ile.",
       "price": 25,
       "categoryId": "icecekler",
-      "image": "/uploads/rize-cayi.jpg",
+      "image": "/uploads/cay.jpg",
       "isAvailable": true,
       "preparationTime": 3,
       "allergens": [],
@@ -530,5 +530,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T11:05:10.670Z"
+  "lastUpdated": "2026-11-19T13:57:08.851Z"
 }
