@@ -491,20 +491,20 @@
       "badges": []
     },
     {
-      "image": "/uploads/icli-kofte.jpg",
       "id": "icli-kofte-adet",
-      "price": 80,
+      "name": "İçli Köfte (Adet)",
       "description": "El açması çıtır kabuklu, bol cevizli ve dana kıymalı 1 adet içli köfte.",
+      "price": 80,
+      "categoryId": "gunun-menusu",
+      "image": "/uploads/icli-kofte.jpg",
+      "isAvailable": true,
+      "preparationTime": 5,
       "allergens": [
         "Gluten",
         "Kuruyemiş"
       ],
-      "preparationTime": 5,
-      "name": "İçli Köfte (Adet)",
-      "categoryId": "gunun-menusu",
-      "isAvailable": true,
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T06:53:23.794Z"
+  "lastUpdated": "2026-11-19T06:54:02.758Z"
 }
