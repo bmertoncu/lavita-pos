@@ -226,7 +226,7 @@
       "description": "Ev yapımı, tam kıvamında şerbetli fındıklı klasik şekerpare tatlısı.",
       "price": 200,
       "categoryId": "tatlilar",
-      "image": "/uploads/sekerpare.jpg",
+      "image": "/uploads/sekerpare-v2.jpg",
       "isAvailable": true,
       "preparationTime": 5,
       "allergens": [
@@ -467,5 +467,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T08:59:00.000Z"
+  "lastUpdated": "2026-11-19T09:16:00.000Z"
 }
