@@ -5,7 +5,7 @@
       "name": "🍲 Günün Menüsü",
       "nameIt": "Menu del Giorno",
       "icon": "Utensils",
-      "description": "Taze ve özenle hazırlanan günlük ev yemekleri menülerimiz.",
+      "description": "Taze ve özenle hazırlanan günlük ev yemekleri menülerimiz. Menü yanında çay ve kahve ikramımızdır.",
       "order": 1
     },
     {
@@ -43,13 +43,29 @@
   ],
   "menuItems": [
     {
+      "id": "zeytinyagli-yaprak-sarma-yogurt",
+      "name": "Zeytinyağlı Yaprak Sarma + Yoğurt",
+      "description": "İncecik sarılmış zeytinyağlı ev yapımı yaprak sarma, yanında taze süzme yoğurt ile.",
+      "price": 350,
+      "categoryId": "gunun-menusu",
+      "image": "/uploads/zeytinyagli-sarma-dolma.jpg",
+      "isAvailable": true,
+      "preparationTime": 10,
+      "allergens": [
+        "Süt Ürünleri"
+      ],
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
       "id": "guvec-pilav",
       "name": "Güveç + Pilav",
       "description": "Geleneksel toprak güveçte pişen dana eti ve taze sebzeler, yanında tane tane tereyağlı pilav ile servis edilir.",
       "price": 350,
       "categoryId": "gunun-menusu",
       "image": "/uploads/guvec-pilav.jpg",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 15,
       "allergens": [
         "Gluten",
@@ -79,8 +95,8 @@
     },
     {
       "id": "pilav-ustu-tavuk",
-      "name": "Pilav Üstü Tavuk",
-      "description": "Tane tane tereyağlı pirinç pilavı üzerinde leziz didiklenmiş tavuk eti, karabiber ile.",
+      "name": "Pilav Üstü Tavuk + Ayran",
+      "description": "Tane tane tereyağlı pirinç pilavı üzerinde leziz didiklenmiş tavuk eti, yanında soğuk ayran ile.",
       "price": 250,
       "categoryId": "gunun-menusu",
       "image": "/uploads/pilav-ustu-tavuk.jpg",
@@ -126,8 +142,8 @@
     },
     {
       "id": "icli-kofte-menu-ayran",
-      "name": "İçli Köfte Menü + Ayran",
-      "description": "El açması çıtır kabuklu, bol cevizli ve dana kıymalı içli köfte porsiyonu, yanında soğuk köpüklü ayran ile.",
+      "name": "İçli Köfte + Salata + Ayran",
+      "description": "El açması çıtır kabuklu, bol cevizli ve dana kıymalı içli köfte porsiyonu, yanında taze salata ve ayran ile.",
       "price": 400,
       "categoryId": "gunun-menusu",
       "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&auto=format&fit=crop&q=80",
@@ -141,6 +157,18 @@
       "badges": [
         "chef_choice"
       ]
+    },
+    {
+      "id": "patlican-musakka-pilav",
+      "name": "Patlıcan Musakka + Pilav",
+      "description": "Kıymalı ve domates soslu fırınlanmış patlıcan musakka, yanında tane tane tereyağlı pilav ile.",
+      "price": 350,
+      "categoryId": "gunun-menusu",
+      "image": "/uploads/patlican-musakka.jpg",
+      "isAvailable": true,
+      "preparationTime": 10,
+      "allergens": [],
+      "badges": []
     },
     {
       "id": "mercimek-corbasi",
@@ -181,7 +209,7 @@
       "price": 150,
       "categoryId": "tatlilar",
       "image": "/uploads/hamsikoy-sutlac.jpg",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 5,
       "allergens": [
         "Süt Ürünü",
@@ -193,13 +221,31 @@
       ]
     },
     {
+      "id": "sekerpare",
+      "name": "Şekerpare",
+      "description": "Ev yapımı, tam kıvamında şerbetli fındıklı klasik şekerpare tatlısı.",
+      "price": 200,
+      "categoryId": "tatlilar",
+      "image": "/uploads/sekerpare.jpg",
+      "isAvailable": true,
+      "preparationTime": 5,
+      "allergens": [
+        "Gluten",
+        "Yumurta",
+        "Kuruyemiş"
+      ],
+      "badges": [
+        "bestseller"
+      ]
+    },
+    {
       "id": "pirinc-pilavi-tereyagli",
       "name": "Pirinç Pilavı (Tereyağlı)",
       "description": "Geleneksel usulde hakiki tereyağı ile demlenmiş tane tane leziz pirinç pilavı.",
       "price": 80,
       "categoryId": "pilav-yan-lezzetler",
       "image": "/uploads/pirinc-pilavi.jpg",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 5,
       "allergens": [
         "Gluten",
@@ -214,7 +260,7 @@
       "price": 80,
       "categoryId": "pilav-yan-lezzetler",
       "image": "/uploads/bulgur-pilavi.jpg",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 5,
       "allergens": [
         "Gluten",
@@ -237,6 +283,18 @@
       "badges": [
         "vegetarian"
       ]
+    },
+    {
+      "id": "salatalar-brokoli-karnabahar",
+      "name": "Salatalar (Brokoli - Karnabahar)",
+      "description": "Zeytinyağlı ve limonlu taze haşlanmış brokoli ve karnabahar salatası.",
+      "price": 80,
+      "categoryId": "pilav-yan-lezzetler",
+      "image": "/uploads/salata-brokoli-karnabahar.jpg",
+      "isAvailable": true,
+      "preparationTime": 5,
+      "allergens": [],
+      "badges": []
     },
     {
       "id": "kahve-turk",
@@ -409,5 +467,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-18T12:00:00.000Z"
+  "lastUpdated": "2026-11-19T08:45:00.000Z"
 }
