@@ -387,9 +387,6 @@ export const QRMenuView: React.FC<QRMenuViewProps> = ({
             >
               {/* Section Title (Katmer Park Architecture) */}
               <div className="border-b-2 border-[#e3decb] dark:border-[#223322] pb-2.5">
-                <p className="text-[11px] font-bold uppercase tracking-wider text-[#917539] dark:text-[#d8c28a]">
-                  {cat.name}
-                </p>
                 <h2 className="font-brand italic text-2xl sm:text-3xl font-black text-[#1e3a1e] dark:text-[#e4edd2]">
                   {cat.name}
                 </h2>
