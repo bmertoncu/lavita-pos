@@ -60,7 +60,7 @@
     },
     {
       "id": "dolma-ve-zeytinyagli-sarma",
-      "name": "Dolma ve Zeytinyağlı Sarma",
+      "name": "Dolma ve Zeytinyağlı Sarma + Yoğurt",
       "description": "Zeytinyağlı ev yapımı yaprak sarma ve kuru patlıcan/biber dolması tabağı.",
       "price": 350,
       "categoryId": "gunun-menusu",
@@ -530,5 +530,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T10:43:41.235Z"
+  "lastUpdated": "2026-11-19T11:05:10.670Z"
 }
