@@ -394,7 +394,7 @@
     },
     {
       "id": "su",
-      "name": "Su (500 ml)",
+      "name": "Su",
       "description": "Doğal kaynak suyu.",
       "price": 20,
       "categoryId": "icecekler",
@@ -530,5 +530,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T13:31:00.000Z"
+  "lastUpdated": "2026-11-19T10:43:21.206Z"
 }
