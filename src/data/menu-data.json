@@ -260,7 +260,7 @@
       "price": 80,
       "categoryId": "pilav-yan-lezzetler",
       "image": "/uploads/bulgur-pilavi.jpg",
-      "isAvailable": false,
+      "isAvailable": true,
       "preparationTime": 5,
       "allergens": [
         "Gluten",
@@ -506,5 +506,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-19T07:38:59.442Z"
+  "lastUpdated": "2026-11-19T07:39:10.323Z"
 }
