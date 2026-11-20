@@ -572,7 +572,7 @@
       "price": 350,
       "categoryId": "gunun-menusu",
       "image": "/uploads/whatsapp-image-2026-11-20-at-1-1795180831827.jpeg",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 10,
       "allergens": [],
       "badges": []
@@ -614,5 +614,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-20T13:20:47.602Z"
+  "lastUpdated": "2026-11-20T13:21:48.945Z"
 }
