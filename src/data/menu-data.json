@@ -112,7 +112,7 @@
       "price": 250,
       "categoryId": "gunun-menusu",
       "image": "/uploads/pilav-ustu-tavuk-v2.jpg",
-      "isAvailable": false,
+      "isAvailable": true,
       "preparationTime": 5,
       "badges": [
         "bestseller"
@@ -548,7 +548,7 @@
       "price": 250,
       "categoryId": "gunun-menusu",
       "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&auto=format&fit=crop&q=80",
-      "isAvailable": true,
+      "isAvailable": false,
       "badges": [],
       "preparationTime": 10,
       "allergens": []
@@ -608,11 +608,32 @@
       "price": 160,
       "categoryId": "gunun-menusu",
       "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop&q=80",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 10,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "supangle",
+      "name": "Süpangle",
+      "description": "Ev yapımı çikolatalı süpangle tatlısı.",
+      "price": 150,
+      "categoryId": "tatlilar",
+      "image": "",
+      "isAvailable": true
+    },
+    {
+      "id": "taze-fasulye-pilav-ayran",
+      "name": "Taze Fasulye + Pilav + Ayran",
+      "description": "Zeytinyağlı taze fasulye, yanında pilav ve ayran ile. Güne özel menü, bugüne özel 250 ₺.",
+      "price": 250,
+      "categoryId": "gunun-menusu",
+      "image": "/logo.png",
+      "isAvailable": true,
+      "preparationTime": 15,
       "allergens": [],
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-20T13:21:53.782Z"
+  "lastUpdated": "2026-11-20T17:27:02.033Z"
 }
