@@ -571,11 +571,11 @@
       "description": "Fırında patates, domates ve biber sosu ile pişirilmiş geleneksel leziz İzmir köfte, yanında tereyağlı pilav ile.",
       "price": 350,
       "categoryId": "gunun-menusu",
-      "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&auto=format&fit=crop&q=80",
+      "image": "/uploads/whatsapp-image-2026-11-20-at-1-1795180831827.jpeg",
       "isAvailable": true,
-      "badges": [],
       "preparationTime": 10,
-      "allergens": []
+      "allergens": [],
+      "badges": []
     },
     {
       "id": "patates-cips-cola",
@@ -614,5 +614,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-20T07:57:27.228Z"
+  "lastUpdated": "2026-11-20T13:20:47.602Z"
 }
