@@ -661,7 +661,7 @@
     {
       "id": "limonata",
       "name": "Limonata",
-      "description": "Taze Sıkılmış Ev Yapımı Limonata (330 ml)",
+      "description": "Limonata (330 ml)",
       "price": 30,
       "categoryId": "icecekler",
       "image": "/uploads/limonata.jpg",
@@ -671,5 +671,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-21T05:32:35.032Z"
+  "lastUpdated": "2026-11-21T05:33:48.693Z"
 }
