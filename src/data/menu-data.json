@@ -619,8 +619,11 @@
       "description": "Ev yapımı çikolatalı süpangle tatlısı.",
       "price": 150,
       "categoryId": "tatlilar",
-      "image": "",
-      "isAvailable": true
+      "image": "/uploads/s-pangle-1795240876798.jpeg",
+      "isAvailable": true,
+      "preparationTime": 15,
+      "allergens": [],
+      "badges": []
     },
     {
       "id": "taze-fasulye-pilav-ayran",
@@ -671,5 +674,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-21T05:38:27.193Z"
+  "lastUpdated": "2026-11-21T06:01:24.089Z"
 }
