@@ -605,7 +605,7 @@
       "id": "sikma-borek",
       "name": "Ev Yapımı Sıkma Börek",
       "description": "4 Adet Geleneksel ev yapımı peynirli / patatesli sıkma börek.",
-      "price": 160,
+      "price": 200,
       "categoryId": "gunun-menusu",
       "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop&q=80",
       "isAvailable": true,
@@ -633,7 +633,43 @@
       "preparationTime": 15,
       "allergens": [],
       "badges": []
+    },
+    {
+      "id": "soda",
+      "name": "Soda",
+      "description": "Sade Doğal Maden Suyu / Soda",
+      "price": 25,
+      "categoryId": "icecekler",
+      "image": "/uploads/maden-suyu.jpg",
+      "isAvailable": true,
+      "preparationTime": 2,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "salgam",
+      "name": "Şalgam",
+      "description": "Geleneksel Adana Şalgamı (300 ml)",
+      "price": 25,
+      "categoryId": "icecekler",
+      "image": "/uploads/salgam.jpg",
+      "isAvailable": true,
+      "preparationTime": 2,
+      "allergens": [],
+      "badges": []
+    },
+    {
+      "id": "limonata",
+      "name": "Limonata",
+      "description": "Taze Sıkılmış Ev Yapımı Limonata (330 ml)",
+      "price": 30,
+      "categoryId": "icecekler",
+      "image": "/uploads/limonata.jpg",
+      "isAvailable": true,
+      "preparationTime": 2,
+      "allergens": [],
+      "badges": []
     }
   ],
-  "lastUpdated": "2026-11-20T17:59:27.099Z"
+  "lastUpdated": "2026-11-21T05:32:35.032Z"
 }
