@@ -272,7 +272,7 @@
       "price": 80,
       "categoryId": "pilav-yan-lezzetler",
       "image": "/uploads/bulgur-pilavi.jpg",
-      "isAvailable": true,
+      "isAvailable": false,
       "preparationTime": 5,
       "allergens": [
         "Gluten",
@@ -660,7 +660,19 @@
       "preparationTime": 2,
       "allergens": [],
       "badges": []
+    },
+    {
+      "id": "istim-kebabi-pilav",
+      "name": "İstim Kebabı + Pilav",
+      "description": "Fırında patlıcan dilimlerine sarılı özel köfte, domates sosu ve tereyağlı pilav ile.",
+      "price": 350,
+      "categoryId": "gunun-menusu",
+      "image": "",
+      "isAvailable": true,
+      "preparationTime": 10,
+      "allergens": [],
+      "badges": []
     }
   ],
-  "lastUpdated": "2026-11-21T06:56:40.588Z"
+  "lastUpdated": "2026-11-21T11:10:30.741Z"
 }
