@@ -596,7 +596,7 @@
       "price": 150,
       "categoryId": "pilav-yan-lezzetler",
       "image": "/uploads/salata-brokoli-karnabahar.jpg",
-      "isAvailable": true,
+      "isAvailable": false,
       "badges": [],
       "preparationTime": 10,
       "allergens": []
@@ -674,5 +674,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-21T11:10:30.741Z"
+  "lastUpdated": "2026-11-21T11:10:39.524Z"
 }
