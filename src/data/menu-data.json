@@ -638,18 +638,6 @@
       "badges": []
     },
     {
-      "id": "soda",
-      "name": "Soda",
-      "description": "Sade Doğal Maden Suyu / Soda",
-      "price": 25,
-      "categoryId": "icecekler",
-      "image": "/uploads/maden-suyu.jpg",
-      "isAvailable": true,
-      "preparationTime": 2,
-      "allergens": [],
-      "badges": []
-    },
-    {
       "id": "salgam",
       "name": "Şalgam",
       "description": "Geleneksel Adana Şalgamı (300 ml)",
@@ -674,5 +662,5 @@
       "badges": []
     }
   ],
-  "lastUpdated": "2026-11-21T06:54:46.615Z"
+  "lastUpdated": "2026-11-21T06:55:05.593Z"
 }
